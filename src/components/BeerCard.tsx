@@ -16,7 +16,7 @@ const BeerCard = (props: BeerCardType) => {
       <img src={props.image}/>
       <p><strong>{props.name + " " + props.abv + " " + props.volume}</strong></p>
       <p>{props.price} Ft</p>
-      <p className={props.available ? "available" : "not available"}>{props.available ? "Raktáron" : "Nincs raktáron"}</p>
+      <p className={props.available ? "available" : "notavailable"}>{props.available ? "Raktáron" : "Nincs raktáron"}</p>
     </div>
   )
 }

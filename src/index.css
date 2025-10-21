@@ -47,3 +47,11 @@ body{
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.available{
+  color: cyan;
+}
+
+.notavailable{
+  color: red;
+}
